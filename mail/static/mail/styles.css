@@ -1,0 +1,79 @@
+textarea {
+    min-height: 400px;
+}
+
+#content > div {
+  border: black;
+  border-width: medium;
+  border-style: solid;
+  padding: 5px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 0.5%;
+}
+
+#content > div > div > #sender {
+  font-weight: bold;
+}
+#content > div > div > #subject {
+  font-style: italic;
+}
+#content > div > div > #timestamp {
+  text-align: right;
+  color: #A9A9A9;
+}
+#content > div > button {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+#reply {
+  font-size: 15px;
+  text-decoration: underline;
+  margin: 5px;
+  margin-left: 0px;
+  font-weight: normal;
+  border: none;
+  color: blue;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+#archive {
+  font-size: 15px;
+  text-decoration: underline;
+  margin: 5px;
+  margin-left: 0px;
+  font-weight: normal;
+  border: none;
+  color: red;
+  background-color: #fac8c8;
+  border-radius: 5px;
+}
+
+#buttons {
+  width: 100%;
+  height: 100%;
+}
+
+#content-e {
+  padding: 5px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#initial {
+  margin-bottom: 5%;
+  margin-top: 5px;
+  padding: 5px;
+  padding-bottom: 2%;
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  font-weight: bold;
+}
+
+span {
+  font-weight: normal;
+}
